@@ -1,0 +1,24 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5EDF3;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  .details-container {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .details-container p {
+    margin: 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #13b5dd;
+  }
