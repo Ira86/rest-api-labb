@@ -55,7 +55,7 @@ fetch('/api/teachers')
   .then(data => {
     // Process and display the teacher details using map
     const teachers = data.map(teacher => `
-      <div class="teacher-card ">
+      <div class="teacher-card">
         <h3>${teacher.name}</h3>
         <p><strong>Age:</strong> ${teacher.age}</p>
         <p><strong>Subject:</strong> ${teacher.subject}</p>
